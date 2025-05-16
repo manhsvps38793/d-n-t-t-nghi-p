@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+   
+</head>
+<body>
+    <header>
+        <div class="nav-top">
+            <label for="nav_mobile" class="nav-mobile-btn">
+                <i class="fa-solid fa-bars fa-xl"></i>
+            </label>
+
+            <input hidden type="checkbox" class="nav_input" id="nav_mobile">
+
+            <label for="nav_mobile" class="nav_overlay"></label>
+
+            <nav class="nav_mobile">
+
+                <label for="nav_mobile" class="mobile-close">
+                    <i class="fa-regular fa-circle-xmark fa-lg" style="color: #666;"></i>
+                </label>
+
+                <ul class="list">
+                    <h2 style="padding: 0px 15px;">MENU</h2>
+                    <li><a class="mobile_link" href="/index.html">Trang chủ</a></li>
+                    <li><a class="mobile_link" href="/pruduct.html">Sản phẩm</a></li>
+                        <li><a class="mobile_link sp" href="#">Áo thun</a></li>
+                        <li><a class="mobile_link sp" href="#">Áo polo</a></li>
+                        <li><a class="mobile_link sp" href="#">Áo sơ mi</a></li>
+                        <li><a class="mobile_link sp" href="#">Áo khoác</a></li>
+                        <li><a class="mobile_link sp" href="#">Quần</a></li>
+                        <li><a class="mobile_link sp" href="#">Phụ kiện</a></li>
+                    <li><a class="mobile_link" href="/form.html">Bảng size</a></li>
+                    <li><a class="mobile_link" href="/Returns.html">Chính sách đổi trả</a></li>
+                    <li><a class="mobile_link" href="/about.html">Về chúng tôi</a></li>
+                    <br><br>
+                    <li><a class="mobile_link" href="/dangnhap.html">Đăng nhập</a></li>
+                    <li><a class="mobile_link" href="/dangky.html">Đăng ký</a></li>
+                </ul>
+            </nav>
+
+            <div class="logo">
+                <a href="/index.html"><b style="font-size: 40PX;text-decoration: none;color: black;">M A G</b></a>
+            </div>
+
+            <div class="Search">
+                <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                <div class="icon-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="user">
+                <div class="cart-container">
+                    <i class="fa-solid fa-cart-shopping fa-xl" style="color: rgb(255, 64, 64);"></i>
+                    <div class="cart-badge">0</div>
+                </div>
+                <div class="user-all">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fa-solid fa-circle-user fa-2xl" style="color: rgb(189, 189, 189);"></i></a>
+                            <ul>
+                                <li><a href="/dangnhap.html">Đăng nhập</a></li>
+                                <li><a href="/dangky.html">Đăng ký</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr" style="width: 80%;margin: auto;">
+
+        <nav class="nav_pc">
+            <ul>
+                <li><a href="/index.html">Trang chủ</a></li>
+                <li><a href="/pruduct.html">Sản phẩm</a></li>
+                <li><a href="/form.html">Bảng size</a></li>
+                <li><a href="/Returns.html">Chính sách đổi trả</a></li>
+                <li><a href="/about.html">Về chúng tôi</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="grid wide container">
+        <div class="row">
+            <div class="col l-4 c-12 m-12 l-o-4">
+                <div class="dangky-all">
+                    <h2>Đăng ký</h2>
+                    <form action="" method="post">
+                        <input class="dangky-all-input" type="text" placeholder="nhập tên của bạn">
+                        <input class="dangky-all-input" type="number" placeholder="nhập số điện thoại">
+                        <input class="dangky-all-input" type="password" placeholder="nhập mật khẩu">
+                        <input class="dangky-all-input" type="password" placeholder="nhập mật khẩu">
+                        <input class="dangky-all-inputdangky" type="submit" value="Đăng ký">
+                    </form>
+                    <p>nếu bạn chưa có tài khoản hãy đăng ký ngay để nhận được ưu đãi & đã có tài khoản hãy <a href="/dangnhap.html">đăng nhập</a> tại đây</p>
+                    <div class="grid wide container">
+                        <div class="row icon-center">
+                            <div class="col l-6 c-6">
+                                <div class="footer-icon footer-icon-đangky">
+                                    <img src="/img/facebook.svg" alt="">
+                                    <p>Đăng ký nhanh bằng tài khoản Facabook</p>
+                                </div>
+                            </div>
+                            <div class="col l-6 c-6">
+                                <div class="footer-icon footer-icon-đangky">
+                                    <img src="/img/instagram.svg" alt="">
+                                    <p>Đăng ký nhanh bằng tài khoản Facabook</p>
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-3 c-12 ">
+                    <div class="box-footer">
+                        <div class="box-footer_logo"><a href="/index.html">M A G</a></div>
+                        <p>Sầm Văn Mạnh
+                            Giấy chứng nhận đăng ký HKD số 17A80041952 do Phòng Tài chính - Kế hoạch, Uỷ ban nhân dân thành phố HCM cấp ngày 19/10/2004
+                            Địa chỉ: Số 391/Tô ký, Phường Trung Mỹ Tây, Thành phố HCM, Tỉnh HCM, Việt Nam <br>
+                            Email: manhsvps38793@gmail.com <br>
+                            Điện thoại: 0325132746
+                        </p>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12 ">
+                    <div class="box-footer">
+                            <h3>Theo giõi</h3>
+                            <p>
+                                Theo giõi trang để được trải nhiệm những tính năng vào share khủng nhé
+                            </p>
+                            <div class="grid wide container">
+                                <div class="row icon-center">
+                                    <div class="col l-2 c-2">
+                                        <div class="footer-icon"><img src="/img/facebook.svg" alt=""></div>
+                                    </div>
+                                    <div class="col l-2 c-2">
+                                        <div class="footer-icon"><img src="/img/instagram.svg" alt=""></div>
+                                    </div>
+                                    <div class="col l-2 c-2">
+                                        <div class="footer-icon"><img src="/img/lazadaico.webp" alt=""></div>
+                                    </div>
+                                    <div class="col l-2 c-2">
+                                        <div class="footer-icon"><img src="/img/shopeeico.webp" alt=""></div>
+                                    </div>
+                                    <div class="col l-2 c-2">
+                                        <div class="footer-icon"><img src="/img/tiktok.svg" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12 ">
+                    <div class="box-footer">
+                        <h3>About Us</h3>
+                        <ul>
+                            
+                            <li><a href="/index.html">Trang chủ</a></li>
+                            <li><a href="/pruduct.html">Tất cả sản phẩm</a></li>
+                            <li><a href="/form.html">Bảng Size</a></li>
+                            <li><a href="">Kiểm tra đơn hàng</a></li>
+                            <li><a href="">Hệ Thống Cửa Hàng</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12 ">
+                    <div class="box-footer">
+                        <h3>Chính sách</h3>
+                        <ul>
+                            <li><a href="">Chính sách mua hàng</a></li>
+                            <li><a href="">Chính sách bảo mật</a></li>
+                            <li><a href="">Phương thức thanh toán</a></li>
+                            <li><a href="">Chính sách giao nhận, vận chuyển, kiểm hàng</a></li>
+                            <li><a href="">Chính sách đổi trả</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
+<script src="main.js"></script>

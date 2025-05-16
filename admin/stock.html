@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tồn Kho</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            background-color: #f8f9fa;
+        }
+        #sidebar-wrapper {
+            min-height: 100vh;
+        }
+        .table-container {
+            background: #fff;
+            padding: 15px;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+    </style>
+</head>
+<body>
+    <div class="d-flex" id="wrapper">
+        <div class="bg-light border-end" id="sidebar-wrapper">
+            <div class="sidebar-heading bg-success text-white p-3 text-center">M A G</div>
+            <div class="list-group list-group-flush">
+                <a href="index.html" class="list-group-item list-group-item-action">📌 Trang Chủ</a>
+                <a href="order.html" class="list-group-item list-group-item-action">🛒 Tạo Đơn Hàng</a>
+                <a href="products.html" class="list-group-item list-group-item-action">📦 Sản Phẩm</a>
+                <a href="customers.html" class="list-group-item list-group-item-action">👥 Khách Hàng</a>
+                <a href="inventory.html" class="list-group-item list-group-item-action">📥 Nhập Kho</a>
+                <a href="stock.html" class="list-group-item list-group-item-action">📊 Tồn Kho</a>
+                <a href="revenue.html" class="list-group-item list-group-item-action">💰 Doanh Số</a>
+                <a href="expenses.html" class="list-group-item list-group-item-action">📉 Thu Chi</a>
+                <a href="profit.html" class="list-group-item list-group-item-action">📈 Lợi Nhuận</a>
+                <a href="settings.html" class="list-group-item list-group-item-action">⚙ Thiết Lập</a>
+            </div>
+        </div>
+
+        <div id="page-content-wrapper" class="w-100 p-3">
+            <nav class="navbar navbar-expand-lg navbar-light bg-primary text-white px-3">
+                <span class="fw-bold">Cửa hàng: <strong>Cửa hàng số 1</strong></span>
+                <span class="ms-auto">👋 Xin chào, Admin</span>
+            </nav>
+            <div class="container-fluid mt-3">
+                <h2>Tồn Kho</h2>
+                <table class="table table-bordered table-striped mt-3">
+                    <thead class="table-dark">
+                        <tr>
+                            <th>Tên Sản Phẩm</th>
+                            <th>Số Lượng Tồn</th>
+                            <th>Giá</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Sản phẩm 1</td>
+                            <td>50</td>
+                            <td>100,000 VNĐ</td>
+                        </tr>
+                        <tr>
+                            <td>Sản phẩm 2</td>
+                            <td>30</td>
+                            <td>200,000 VNĐ</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

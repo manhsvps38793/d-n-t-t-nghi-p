@@ -1,0 +1,1106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="grid.css">
+    <link rel="stylesheet" href="style.css">
+   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <div class="nav-top">
+            <label for="nav_mobile" class="nav-mobile-btn">
+                <i class="fa-solid fa-bars fa-xl"></i>
+            </label>
+
+            <input hidden type="checkbox" class="nav_input" id="nav_mobile">
+
+            <label for="nav_mobile" class="nav_overlay"></label>
+
+            <nav class="nav_mobile">
+
+                <label for="nav_mobile" class="mobile-close">
+                    <i class="fa-regular fa-circle-xmark fa-lg" style="color: #666;"></i>
+                </label>
+
+                <ul class="list">
+                    <h2 style="padding: 0px 15px;">MENU</h2>
+                    <li><a class="mobile_link" href="/index.html">Trang chủ</a></li>
+                    <li><a class="mobile_link" href="/pruduct.html">Sản phẩm</a></li>
+                        <li><a class="mobile_link sp" href="#">Áo thun</a></li>
+                        <li><a class="mobile_link sp" href="#">Áo polo</a></li>
+                        <li><a class="mobile_link sp" href="#">Áo sơ mi</a></li>
+                        <li><a class="mobile_link sp" href="#">Áo khoác</a></li>
+                        <li><a class="mobile_link sp" href="#">Quần</a></li>
+                        <li><a class="mobile_link sp" href="#">Phụ kiện</a></li>
+                    <li><a class="mobile_link" href="/form.html">Bảng size</a></li>
+                    <li><a class="mobile_link" href="/Returns.html">Chính sách đổi trả</a></li>
+                    <li><a class="mobile_link" href="/about.html">Về chúng tôi</a></li>
+                    <br><br>
+                    <li><a class="mobile_link" href="/dangnhap.html">Đăng nhập</a></li>
+                    <li><a class="mobile_link" href="/dangky.html">Đăng ký</a></li>
+                </ul>
+            </nav>
+
+            <div class="logo">
+                <a href="/index.html"><b style="font-size: 40PX;text-decoration: none;color: black;">M A G</b></a>
+            </div>
+
+            <div class="Search">
+                <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                <div class="icon-search">
+                <i class="fa-solid fa-magnifying-glass"></i>
+                </div>
+            </div>
+
+            <div class="user">
+                <div class="cart-container">
+                    <i class="fa-solid fa-cart-shopping fa-xl" style="color: rgb(255, 64, 64);"></i>
+                    <div class="cart-badge">0</div>
+                </div>
+                <div class="user-all">
+                    <ul>
+                        <li>
+                            <a href="#"><i class="fa-solid fa-circle-user fa-2xl" style="color: rgb(189, 189, 189);"></i></a>
+                            <ul>
+                                <li><a href="/dangnhap.html">Đăng nhập</a></li>
+                                <li><a href="/dangky.html">Đăng ký</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <hr class="hr" style="width: 80%;margin: auto;">
+
+        <nav class="nav_pc">
+            <ul>
+                <li><a href="/index.html">Trang chủ</a></li>
+                <li><a href="/pruduct.html">Sản phẩm</a></li>
+                <li><a href="/form.html">Bảng size</a></li>
+                <li><a href="/Returns.html">Chính sách đổi trả</a></li>
+                <li><a href="/about.html">Về chúng tôi</a></li>
+            </ul>
+        </nav>
+    </header>
+        
+    <section class="slider-container">
+        <div class="slide-show">
+            <div class="list-img">
+                <img src="/img/slide1.jpg" alt="Image 1">
+                <img src="/img/slider_2.webp" alt="Image 2">
+                <img src="/img/slider_3.webp" alt="Image 3">
+            </div>
+            <div class="btn-left btns"><i class="fa-solid fa-chevron-left"></i></div>
+            <div class="btn-right btns"><i class="fa-solid fa-chevron-right"></i></div>
+        </div>
+    </section>
+
+    <div class="introduce">
+        <p class="tieude">Enjoy Your Youth!</p>
+        <p class="introduce-test">Không chỉ là thời trang, M A G còn là “phòng thí nghiệm” 
+            của tuổi trẻ - nơi nghiên cứu và cho  ra đời nguồn năng lượng 
+            mang tên “Youth”. Chúng mình luôn muốn tạo nên những trải 
+            nghiệm  vui vẻ, năng động và trẻ trung.
+        </p>
+    </div>
+
+    <section class="product-thun">
+        <h2 class="product-name">Áo thun</h2>
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-6 c-6">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <a href="/detail.html"><img src="/img/aothun.webp" alt=""></a>
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Thun Local Brand Unisex Summer Fresh Tshirt TS282
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/aothun.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Thun Local Brand Unisex Summer Fresh Tshirt TS282
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/aothun.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Thun Local Brand Unisex Summer Fresh Tshirt TS282
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/aothun.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Thun Local Brand Unisex Summer Fresh Tshirt TS282
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                 <!--  -->
+                 <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/aothun.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Thun Local Brand Unisex Summer Fresh Tshirt TS282
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/aothun.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Thun Local Brand Unisex Summer Fresh Tshirt TS282
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/aothun.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Thun Local Brand Unisex Summer Fresh Tshirt TS282
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img" style="display: flex;justify-content: center;align-items: center;height: 80%;">
+                            <a style="font-size: 20px;color: black;" href="">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pruduct-xemthem">
+                <a href="">Xem thêm</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-thun">
+        <h2 class="product-name">Áo polo</h2>
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-6 c-6 ">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/polo.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Polo MAG Local Brand Unisex Flame AP055
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/polo.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Polo MAG Local Brand Unisex Flame AP055
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/polo.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Polo MAG Local Brand Unisex Flame AP055
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/polo.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Polo MAG Local Brand Unisex Flame AP055
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                 <!--  -->
+                 <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/polo.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Polo MAG Local Brand Unisex Flame AP055
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/polo.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Polo MAG Local Brand Unisex Flame AP055
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/polo.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Polo MAG Local Brand Unisex Flame AP055
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img" style="display: flex;justify-content: center;align-items: center;height: 80%;">
+                            <a style="font-size: 20px;color: black;" href="">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pruduct-xemthem">
+                <a href="">Xem thêm</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-thun">
+        <h2 class="product-name">Áo sơ mi</h2>
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-6 c-6 ">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/somi.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Sơ Mi Cộc Tay MAG Local Brand Line Shirt SS067
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/somi.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Sơ Mi Cộc Tay MAG Local Brand Line Shirt SS067
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/somi.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Sơ Mi Cộc Tay MAG Local Brand Line Shirt SS067
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/somi.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Sơ Mi Cộc Tay MAG Local Brand Line Shirt SS067
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                 <!--  -->
+                 <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/somi.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Sơ Mi Cộc Tay MAG Local Brand Line Shirt SS067
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/somi.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Sơ Mi Cộc Tay MAG Local Brand Line Shirt SS067
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/somi.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                                Áo Sơ Mi Cộc Tay MAG Local Brand Line Shirt SS067
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img" style="display: flex;justify-content: center;align-items: center;height: 80%;">
+                            <a style="font-size: 20px;color: black;" href="">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pruduct-xemthem">
+                <a href="">Xem thêm</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-thun">
+        <h2 class="product-name">Áo khoác</h2>
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-6 c-6 ">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/aokhoac.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Áo Khoác Len Local Brand Unisex MAG AK125
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/aokhoac.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Áo Khoác Len Local Brand Unisex MAG AK125
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/aokhoac.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Áo Khoác Len Local Brand Unisex MAG AK125
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/aokhoac.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Áo Khoác Len Local Brand Unisex MAG AK125
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                 <!--  -->
+                 <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/aokhoac.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Áo Khoác Len Local Brand Unisex MAG AK125
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/aokhoac.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Áo Khoác Len Local Brand Unisex MAG AK125
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/aokhoac.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Áo Khoác Len Local Brand Unisex MAG AK125
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img" style="display: flex;justify-content: center;align-items: center;height: 80%;">
+                            <a style="font-size: 20px;color: black;" href="">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pruduct-xemthem">
+                <a href="">Xem thêm</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="product-thun">
+        <h2 class="product-name">Quần</h2>
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-6 c-6 ">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/quan.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Quần Shorts Gió MAG Local Brand Loose Shorts PS083
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/quan.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Quần Shorts Gió MAG Local Brand Loose Shorts PS083
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/quan.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Quần Shorts Gió MAG Local Brand Loose Shorts PS083
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/quan.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Quần Shorts Gió MAG Local Brand Loose Shorts PS083
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                 <!--  -->
+                 <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/quan.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Quần Shorts Gió MAG Local Brand Loose Shorts PS083
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/quan.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Quần Shorts Gió MAG Local Brand Loose Shorts PS083
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/quan.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Quần Shorts Gió MAG Local Brand Loose Shorts PS083
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img" style="display: flex;justify-content: center;align-items: center;height: 80%;">
+                            <a style="font-size: 20px;color: black;" href="">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pruduct-xemthem">
+                <a href="">Xem thêm</a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="product-thun">
+        <h2 class="product-name">Phụ kiện</h2>
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-6 c-6 ">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/phukien.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Balo MAG Local Brand Mini Bag AC100 SS067 SS067
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/phukien.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Balo MAG Local Brand Mini Bag AC100 SS067 SS067
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/phukien.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Balo MAG Local Brand Mini Bag AC100 SS067 SS067
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/phukien.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Balo MAG Local Brand Mini Bag AC100 SS067 SS067
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                 <!--  -->
+                 <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/phukien.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Balo MAG Local Brand Mini Bag AC100 SS067 SS067
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/phukien.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Balo MAG Local Brand Mini Bag AC100 SS067 SS067
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img">
+                            <span class="item-giam">-44%</span>
+                            <div class="item-icon"><i class="fa-solid fa-cart-shopping"></i></div>
+                            <img src="/img/phukien.webp" alt="">
+                        </div>
+                        <div class="item-name">
+                            <h3><a href="">
+                               Balo MAG Local Brand Mini Bag AC100 SS067 SS067
+                            </a></h3>
+                        </div>
+                        <div class="item-price">
+                            <span style="color: red;padding-right: 10px;">195.000đ</span>
+                            <span><del>300.000đ</del></span>
+                        </div>
+                    </div>
+                </div>
+                <!--  -->
+                <div class="col l-3 m-6 c-6 row-mobile">
+                    <div class="item">
+                        <div class="item-img" style="display: flex;justify-content: center;align-items: center;height: 80%;">
+                            <a style="font-size: 20px;color: black;" href="">Xem thêm</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="pruduct-xemthem">
+                <a href="">Xem thêm</a>
+            </div>
+        </div>
+    </section>
+
+    <hr style="width: 80%;color: #666;margin: 5px auto 0px auto;">
+    <div class="grid wide container">
+        <div class="row">
+            <div class="col l-12 m-12 c-12">
+                <div class="about-us">
+                    <h2>Find out M A G more</h2>
+                    <p>
+                        Chào mừng bạn đến với M A G, nơi cung cấp các sản phẩm thời trang và phụ kiện dành cho giới trẻ yêu thích phong cách mạnh mẽ, năng động và hiện đại. Tại M A G, bạn sẽ tìm thấy những item thời trang chất lượng, từ áo thun, quần jeans đến các phụ kiện như đồng hồ, túi xách, kính mắt, phù hợp với mọi dịp.
+                        Thời Trang Nam Cá Tính: Các bộ sưu tập áo thun, quần jeans, áo khoác, và quần shorts cực kỳ phong cách và dễ dàng phối hợp.
+                        Phụ Kiện Nổi Bật: Đồng hồ, kính mắt, túi xách và các phụ kiện khác giúp bạn thêm phần nổi bật và tự tin.
+                        Chúng tôi cam kết mang đến những sản phẩm thời trang dành riêng cho giới trẻ, giúp bạn luôn bắt kịp xu hướng và thể hiện phong cách cá nhân một cách ấn tượng. <span><a style="color: red;" href="/about.html">Xem thêm</a></span>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <div class="grid wide container">
+            <div class="row">
+                <div class="col l-3 m-3 c-12 ">
+                    <div class="box-footer">
+                        <div class="box-footer_logo"><a href="/index.html">M A G</a></div>
+                        <p>Sầm Văn Mạnh
+                            Giấy chứng nhận đăng ký HKD số 17A80041952 do Phòng Tài chính - Kế hoạch, Uỷ ban nhân dân thành phố HCM cấp ngày 19/10/2004
+                            Địa chỉ: Số 391/Tô ký, Phường Trung Mỹ Tây, Thành phố HCM, Tỉnh HCM, Việt Nam <br>
+                            Email: manhsvps38793@gmail.com <br>
+                            Điện thoại: 0325132746
+                        </p>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12 ">
+                    <div class="box-footer">
+                            <h3>Theo giõi</h3>
+                            <p>
+                                Theo giõi trang để được trải nhiệm những tính năng vào share khủng nhé
+                            </p>
+                            <div class="grid wide container">
+                                <div class="row icon-center">
+                                    <div class="col l-2 c-2">
+                                        <div class="footer-icon"><img src="/img/facebook.svg" alt=""></div>
+                                    </div>
+                                    <div class="col l-2 c-2">
+                                        <div class="footer-icon"><img src="/img/instagram.svg" alt=""></div>
+                                    </div>
+                                    <div class="col l-2 c-2">
+                                        <div class="footer-icon"><img src="/img/lazadaico.webp" alt=""></div>
+                                    </div>
+                                    <div class="col l-2 c-2">
+                                        <div class="footer-icon"><img src="/img/shopeeico.webp" alt=""></div>
+                                    </div>
+                                    <div class="col l-2 c-2">
+                                        <div class="footer-icon"><img src="/img/tiktok.svg" alt=""></div>
+                                    </div>
+                                </div>
+                            </div>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12 ">
+                    <div class="box-footer">
+                        <h3>About Us</h3>
+                        <ul>
+                            
+                            <li><a href="/index.html">Trang chủ</a></li>
+                            <li><a href="/pruduct.html">Tất cả sản phẩm</a></li>
+                            <li><a href="/form.html">Bảng Size</a></li>
+                            <li><a href="">Kiểm tra đơn hàng</a></li>
+                            <li><a href="">Hệ Thống Cửa Hàng</a></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="col l-3 m-3 c-12 ">
+                    <div class="box-footer">
+                        <h3>Chính sách</h3>
+                        <ul>
+                            <li><a href="">Chính sách mua hàng</a></li>
+                            <li><a href="">Chính sách bảo mật</a></li>
+                            <li><a href="">Phương thức thanh toán</a></li>
+                            <li><a href="">Chính sách giao nhận, vận chuyển, kiểm hàng</a></li>
+                            <li><a href="">Chính sách đổi trả</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    </body>
+    </html>
+    <script src="main.js"></script>
